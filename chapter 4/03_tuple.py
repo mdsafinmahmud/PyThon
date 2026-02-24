@@ -1,0 +1,6 @@
+a=(1,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,432,3424,False,"Safin","Mahmud")
+print(type(a))
+print(a)
+print(type(45))
+no=a.count("Safin")
+print(no)
