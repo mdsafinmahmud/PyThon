@@ -1,3 +1,3 @@
 name = "Safin"
-nameshort = name[0:2]
+nameshort = name[1:3]
 print(nameshort)
