@@ -19,28 +19,14 @@ a = [
     12,
     23,
     45,
-    67,
-    89,
-    90,
-    100,
-    101,
-    102,
-    103,
-    104,
-    105,
-    106,
-    107,
-    108,
-    109,
-    110,
 ]
 a.sort()
 print(a)
-a.reverse
+a.reverse()
 print(a)
-a.insert(10, 1000)
+a.insert(9, 1000)
 print(a)
-a.insert(-10, 1000)
+a.insert(8, 1000)
 print(a)
-print(a.pop(12))
+print(a.pop(7))
 print(a)
