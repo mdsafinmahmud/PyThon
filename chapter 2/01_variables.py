@@ -1,10 +1,11 @@
-a = 1
-b = 2
-c = 3
-d = 4
-e = 5
-f = 10
-g = 20
-h = 30
-i = 40
+print("Enter 9 numbers to calculate :\n")
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+g = int(input())
+h = int(input())
+i = int(input())
 print(a + b * c + d + e + f + g ^ 2 + h + i)
