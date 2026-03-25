@@ -1,2 +1,2 @@
-letter = "Dear Safin Mahmud, \n\tTthis python course is nice.\nThanks!"
+letter = "Dear Safin Mahmud, \n\tthis python course is nice.\nThanks!"
 print(letter)

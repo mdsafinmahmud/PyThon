@@ -1,5 +1,5 @@
-fruits=["Apple","Banana","Cherry","Durian","Elderberry",]
+fruits=["Apple","Banana","Cherry","Durian","Elderberry","Lichu"]
 
-print(fruits[2])
-fruits[3]="Avocado"
-print(fruits[2])
+print(fruits[4])
+fruits[4]="Avocado"
+print(fruits[5])
