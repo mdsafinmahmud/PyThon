@@ -1,13 +1,15 @@
 marks = int(input("Enter marks: "))
-if marks == 100 or marks >= 90:
+if marks >= 100:
+    print("Apni kon ghroher?")
+elif marks >= 90:
     print("EX")
-elif marks == 90 or marks >= 80:
+elif marks >= 80:
     print("A")
-elif marks == 80 or marks >= 70:
+elif marks >= 70:
     print("B")
-elif marks == 70 or marks >= 60:
+elif marks >= 60:
     print("C")
-elif marks == 50 or marks > 60:
+elif marks > 60:
     print("D")
 elif marks < 50:
     print("F")
