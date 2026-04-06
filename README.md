@@ -1,6 +1,6 @@
 # 🐍 Python Practice Repository
 
-> A structured repository focused on mastering Python fundamentals, problem-solving, and real-world applications.
+A structured repository focused on mastering Python fundamentals, problem-solving, and real-world applications.
 
 ---
 
