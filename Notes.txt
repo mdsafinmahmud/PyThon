@@ -1,0 +1,189 @@
+			Python Basic Dictionary Methods
+# create a dictionary
+d = {'a': 1, 'b': 2}
+
+# get()
+print(d.get('a'))        # 1
+print(d.get('c', 0))     # 0 (default value)
+
+# keys()
+print(d.keys())          # dict_keys(['a', 'b'])
+
+# values()
+print(d.values())        # dict_values([1, 2])
+
+# items()
+print(d.items())         # dict_items([('a', 1), ('b', 2)])
+
+# update()
+d.update({'c': 3})
+print(d)                 # {'a': 1, 'b': 2, 'c': 3}
+
+# pop()
+d.pop('a')
+print(d)                 # {'b': 2, 'c': 3}
+
+# popitem()
+d.popitem()
+print(d)                 # removes last item
+
+# setdefault()
+d.setdefault('d', 4)
+print(d)                 # {'b': 2, 'd': 4}
+
+
+
+# copy()
+d2 = d.copy()
+print(d2)                # copy of dictionary
+
+# clear()
+d.clear()
+print(d)                 # {}
+
+
+
+
+
+
+
+
+
+
+
+				All important set methods
+
+# create sets
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+# add()
+A.add(7)
+
+# update()
+A.update([8, 9])
+
+# remove()
+A.remove(2)
+
+# discard()
+A.discard(100)   # no error
+
+# pop()
+A.pop()
+
+# union()
+print("Union:", A.union(B))
+print("Union (operator):", A | B)
+
+# intersection()
+print("Intersection:", A.intersection(B))
+print("Intersection (operator):", A & B)
+
+# difference()
+print("Difference:", A.difference(B))
+print("Difference (operator):", A - B)
+
+# symmetric_difference()
+print("Symmetric Difference:", A.symmetric_difference(B))
+print("Symmetric Difference (operator):", A ^ B)
+
+# issubset()
+print("Is subset:", {1, 3}.issubset(A))
+
+# issuperset()
+print("Is superset:", A.issuperset({1, 3}))
+
+# copy()
+C = A.copy()
+print("Copy:", C)
+
+# clear()
+A.clear()
+print("After clear:", A)
+
+Some Important Notes : 
+
+repl:
+>>> s=()
+>>> type(s)
+<class 'tuple'>
+>>> s={}
+>>> type(s)
+<class 'dict'>
+>>>
+
+
+
+
+
+
+					RELATIONAL OPERATORS 
+
+Relational Operators are used to evaluate conditions inside the if statements. Some examples of relational operators are:
+ ==: equals.
+ > =: greater than/ equal to.
+ < =: lesser than/ equal to.
+
+LOGICAL OPERATORS 
+In Python, logical operators operate on conditional statements. 
+For Example: 
+• and – true if both operands are true, else false. 
+• or – true if at least one operand is true, or else false. 
+• not – inverts true to false & false to true.
+
+1. There can be any number of elif statements. 
+2. Last else is executed only if all the conditions inside elifs fail.
+
+
+TYPES OF LOOPS IN PYTHON
+ Primarily, there are two types of loops in Python.
+ • while loops
+ • for loops.
+ We will look into these one by one. 
+WHILE LOOP 
+Syntax:
+while (condition): # The block keeps executing until the condition is true #Body of the loop
+
+Example: 
+i = 0 
+while i < 5: # print "Harry" – 5 times! print("Harry") i = i + 1
+
+
+
+FOR LOOP
+ A for loop is used to iterate through a sequence like list, 
+tuple, or string [iterables]
+Syntax:
+l = [1, 7, 8] for item in l: print(item) # prints 1, 7 and 8
+
+
+range(start, stop, step_size) # step_size is usually not used with range()
+
+AN EXAMPLE DEMONSTRATING
+ RANGE () FUNCTION. 
+for i in range(0,7): # range(7) can also be used. 
+print(i) # prints 0 to 6
+
+THE BREAK STATEMENT
+‘break’ is used to come out of the loop when encountered. 
+It instructs the program to – exit the loop now. 
+28 Example: 
+for i in range (0,80): 
+print(i) # this will print 0,1,2 and 3 if i==3 
+break 
+
+
+
+THE CONTINUE STATEMENT
+
+
+
+
+
+
+
+
+
+
+
