@@ -1,4 +1,5 @@
-			Python Basic Dictionary Methods
+Python		
+	Python Basic Dictionary Methods
 # create a dictionary
 d = {'a': 1, 'b': 2}
 
